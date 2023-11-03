@@ -32,20 +32,3 @@ left join order_items c on b.order_id=c.order_id
 group by a.name
 order by highest_total_purchase DESC
 limit 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
